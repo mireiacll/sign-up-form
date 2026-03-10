@@ -7,3 +7,37 @@ body{
     display: flex;
     height: 100vh;
 }
+
+.left {
+  flex: 1;
+  background-image: url("background.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  flex: 1.5;
+  background-color: #f5f5f5;
+}
+
+.form-row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
